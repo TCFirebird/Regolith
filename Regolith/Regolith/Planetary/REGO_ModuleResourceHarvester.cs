@@ -148,7 +148,7 @@ namespace Regolith.Common
                 //Harvesting thresholds, if used.
                 if (abundance < HarvestThreshold || abundance < Utilities.FLOAT_TOLERANCE)
                 {
-                    status = "nothing to harvest";
+                    status = "resource below threshold";
                     IsActivated = false;
                     return null;
                 }
