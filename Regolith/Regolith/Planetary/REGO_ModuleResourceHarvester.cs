@@ -47,7 +47,7 @@ namespace Regolith.Common
         public override string GetInfo()
         {
             var sb = new StringBuilder();
-            var recipe = LoadRecipe(1);
+            var recipe = LoadRecipe(Efficiency);
             sb.Append(".");
             sb.Append("\n");
             sb.Append(ConverterName);
